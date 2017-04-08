@@ -11,7 +11,7 @@ Create placeholder inside streaming web component and fill with your own markup 
 
 ```js
 const html = require('steroid')
-const Content = require('steroid-slot')
+const Slot = require('steroid-slot')
 
 html`
 <main>
