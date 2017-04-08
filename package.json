@@ -1,0 +1,37 @@
+{
+  "name": "steroid-slot",
+  "version": "1.0.0",
+  "description": "Create placeholder inside streaming web component and fill with your own markup",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/steroid-slot.git"
+  },
+  "keywords": [
+    "webcomponent",
+    "template",
+    "slot",
+    "stream",
+    "html",
+    "steroid"
+  ],
+  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/steroid-slot/issues"
+  },
+  "homepage": "https://github.com/bredele/steroid-slot#readme",
+  "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "trumpet": "^1.7.2"
+  }
+}
